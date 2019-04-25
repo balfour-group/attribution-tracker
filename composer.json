@@ -1,0 +1,23 @@
+{
+    "name": "balfour/attribution-tracker",
+    "description": "A library for assigning an attribution channel to an entity based on tracking properties of that entity.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthew Goslett",
+            "email": "matthew@masterstart.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Balfour\\AttributionTracker\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
